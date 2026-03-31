@@ -9,3 +9,12 @@ html,body{
 height:100%;
 width:100%;
 }
+#App{
+  width: 100vh;
+  background-color: black;
+}
+#formDiv{
+  background-color: red;
+  height: 100%;
+  width: 100%;
+}

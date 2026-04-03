@@ -13,3 +13,9 @@ function ToggleText() {
 }
 
 export default ToggleText
+
+                    {/* <li>{newTodo} <div><button className="deleteBtn">Delete</button> <button className="editTodo">Edit</button></div> </li>
+                    <li>{newTodo} <div><button className="deleteBtn">Delete</button> <button className="editTodo">Edit</button></div></li>
+                    <li>{newTodo} <div><button className="deleteBtn">Delete</button> <button className="editTodo">Edit</button></div></li>
+                    <li>{newTodo} <div><button className="deleteBtn">Delete</button> <button className="editTodo">Edit</button></div></li>
+                    <li>{newTodo} <div><button className="deleteBtn">Delete</button> <button className="editTodo">Edit</button></div></li> */}

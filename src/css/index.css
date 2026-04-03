@@ -1,20 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  border: none;
 }
-html,body{
-height:100%;
-width:100%;
-}
-#App{
-  width: 100vh;
-  background-color: black;
-}
-#formDiv{
-  background-color: red;
+html,
+body {
   height: 100%;
   width: 100%;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
+#todoDiv {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #282a2c;
+  align-items: center;
+}
+#todoH1{
+  margin-bottom: 10px;
+}
+
+#inpuBox {
+  height: 30px;
+  width: 250px;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  color: #282a2c;
+}
+#submitBtn {
+  height: 30px;
+  margin-left: 10px;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(51, 142, 217);
+}
+#todoList {
+  margin: 10px;
+  width: 330px;
+}
+#todoList > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+#todoList > ul > li {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  padding: 5px;
+  margin-right: 10px;
+  height: 30px;
+  width: 60px;
+}
+.deleteBtn {
+  background-color: red;
+}
+.editTodo {
+  background-color: rgb(4, 191, 4);
+}
+#root button:active {
+  scale: 0.9;
+  transition: all ease-in-out 0.1s;
 }
